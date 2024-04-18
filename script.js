@@ -28,7 +28,7 @@ button.addEventListener("click", () => {
 
     user_age_year = current_year - user_birth_year;
 
-    if (current_month > user_birth_month) {
+    if (current_month >= user_birth_month) {
         user_age_month = current_month - user_birth_month;
     }
     else {
