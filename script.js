@@ -32,7 +32,7 @@ button.addEventListener("click", () => {
         user_age_month = current_month - user_birth_month;
     }
     else {
-        current_year--;
+        user_age_year--;
         user_age_month = 12 + current_month - user_birth_month;
     }
 
