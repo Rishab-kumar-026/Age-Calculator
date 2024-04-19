@@ -10,46 +10,46 @@
     background: #720e9e;
     width: 100%;
     min-height: 100vh;
-    padding: 1rem;
+    padding: 16px;
+    
 }
 
 .calculator {
     margin: 6% 0 0 10%;
     width: 100%;
-    max-width: 50vw;
+    max-width: 500px;
     height: auto;
-    padding: 1.5rem;
+    padding: 24px;
 }
 
 .calculator h1 {
-    font-size: 3.5vw;
+    font-size: 40px;
 }
 
 .calculator h1 span {
     color: #cdc907;
-    font-size: 4vw;
+    font-size: 45px;
     margin: 0.5% 0 0 0;
 }
 
 .input-box {
     margin: 6.5% 0;
-    padding: 0.25rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0.5rem;
-    padding: 1rem;
+    gap: 10px ;
+    padding: 16px;
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    max-width: 47vw;
-    border-radius: 1rem;
+    max-width: 450px;
+    border-radius: 10px;
 }
 
 .input-box input {
     flex: 1;
-    font-size: 1.5vw;
-    padding: 0.7rem;
-    border-radius: 0.5rem;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -57,11 +57,11 @@
 }
 
 .input-box button {
-    font-size: 1.5vw;
-    padding: 0.7rem;
+    font-size:15px;
+    padding: 10px;
     border: 0;
     outline: 0;
-    border-radius: 0.50rem;
+    border-radius: 5px;
     background: #dabd02;
     color: #fff;
     font-weight: 500;
@@ -83,11 +83,45 @@
 }
 
 #age{
- font-size:2vw;
+ font-size:20px;
  font-family:'Times New Roman', Times, serif;
 }
 
 #age span{
-    color: 
-    #F6D242;
+    color: #F6D242;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .calculator{
+        margin: 0 auto;
+        width: 430px;
+    }
+    .calculator h1 {
+        font-size: 35px;
+    }
+    
+    .calculator h1 span {
+        font-size: 40px;
+    }
+    .input-box {
+        margin: 6.5% 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px ;
+        padding: 16px;
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        max-width: 450px;
+        border-radius: 10px;
+    }
+    #age{
+        font-size:18px;
+       }
+    
 }
